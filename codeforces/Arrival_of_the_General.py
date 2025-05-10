@@ -1,4 +1,4 @@
-q = int(input()); height_arr = list(map(int, input().split()));
+q = int(input()); height_arr = list(map(int, input().split())); count = 0;
 max_height = max(height_arr); min_height = min(height_arr); idx_of_max = 0; idx_of_min = 0;
 
 # taking the first index of the max height
